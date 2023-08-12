@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p2style.css">
+    <title>page2</title>
+</head>
+<body>
+    <div class="container2">
+        <!-- header -->
+        <header class="header">
+            <ul>
+                <li>کاربر : حسین خاوری</li>
+                <li>سطح 1</li>
+            </ul>
+            <img src="rahel.png" alt="rahel-logo" class="logo">
+        </header>
+        <h2 class="welcome">
+            اخبار راحل
+        </h2>
+            <div class="page2">
+                 <!-- sidebar -->
+                <ul class="inner-sidebar">
+                    <li class="dropdown">
+                        <label for="touch" class="touchlabel"><span>اخبار</span></label>
+                        <input type="checkbox" name="" id="touch">
+                        <div class="dropdown-content">
+                            <a href="#">خبر1</a>
+                            <a href="#">خبر2</a>
+                        </div>
+                    </li>
+                    <li><a href="#">پژوهش</a></li>
+                    <li><a href="#">ثبت صورت جلسات</a></li>
+                    <li><a href="#">مدیریت مشاوره حقوقی</a></li>
+                    <li><a href="#">گزارش فعالیت وب سایت</a></li>
+                    <li><a href="#">خروج</a></li>
+                </ul>
+                <!-- forms -->
+                <div class="forms">
+                    <form action="">
+                        <label for="item1" class="label">عنوان و تیتر خبر:</label>
+                        <input type="text" name="" id="item1" class="text" value="متن">
+                        <label for="item2" class="label">چکیده متن:</label>
+                        <input type="text" name="item2" id="item2" class="text text2" value="متن">
+                        <label for="item3" class="label">متن خبر:</label>
+                        <input type="text" name="item3" id="item3" class="text text3" value="متن">
+                        <!-- ستون فرم --- قسمت دو ستونه -->
+                        <div class="andi">
+                            <div>
+                                <label for="item4" class="label">نام نویسنده:</label>
+                                <input type="text" name="item4" id="item4" class="text" value="متن">
+                            </div>
+                            <div>
+                                <label for="item5" class="label">لینک خبر:</label>
+                                <input type="text" name="item5" id="item5" class="text" value="متن">
+                            </div>
+                            <div>
+                                <label for="item6" class="label"> لینک این خبر در شبکه های مجازی:</label>
+                                <input type="text" name="item6" id="item6" class="text" value="اینستاگرام" >
+                                <input type="text" name="item6" id="item6" class="text" value="تلگرام">
+                                <input type="text" name="item6" id="item6" class="text" value="ایتا">
+                            </div> 
+                            <div>
+                                <label for="item7" class="label"> دسته بندی خبر:</label>
+                                <input type="text" name="item5" id="item7" class="text7">
+                            </div> 
+                            <div class="div-file">
+                                <span>فایل</span>
+                                <label for="item8" class="labelfile"> Choose File
+                                    <input type="file" name="item8" id="item8" multiple class="file">
+                                </label>
+                            </div> 
+                            <div class="dokme">
+                                <input type="submit" onclick="alert ('حذف شد')" value="حذف" class="delete">
+                                <input type="submit" onclick="alert ('ثبت شد')" value="ثبت" class="post">
+                            </div> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>
